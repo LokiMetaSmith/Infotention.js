@@ -3,13 +3,15 @@ A set of javascript libraries that implement Howard Rheingold's ideas on Infoten
 
 From Mindful Infotention: Dashboards, Radars, Filters - http://blog.sfgate.com/rheingold/2009/09/01/mindful-infotention-dashboards-radars-filters/
 
-'Infotention is a word I came up with to describe the psycho-social-techno skill/tools we all need to find our way online today, a mind-machine combination of brain-powered attention skills with computer-powered information filters. The inside and outside of infotention work best together'
+'Infotention is a word I came up with to describe the psyche-social-techno skill/tools we all need to find our way online today, a mind-machine combination of brain-powered attention skills with computer-powered information filters. The inside and outside of infotention work best together'
 
 I would like our deisn philosophy to follow Douglas Englebart's H/LAM-T system described in his seminal paper "AUGMENTING HUMAN INTELLECT: A CONCEPTUAL FRAMEWORK".
 
 From "AUGMENTING HUMAN INTELLECT: A CONCEPTUAL FRAMEWORK" - http://www.dougengelbart.org/pubs/augment-3906.html
 
 'By "augmenting human intellect" we mean increasing the capability of a man to approach a complex problem situation, to gain comprehension to suit his particular needs, and to derive solutions to problems. Increased capability in this respect is taken to mean a mixture of the following: more-rapid comprehension, better comprehension, the possibility of gaining a useful degree of comprehension in a situation that previously was too complex, speedier solutions, better solutions, and the possibility of finding solutions to problems that before seemed insoluble. And by "complex situations" we include the professional problems of diplomats, executives, social scientists, life scientists, physical scientists, attorneys, designers--whether the problem situation exists for twenty minutes or twenty years. We do not speak of isolated clever tricks that help in particular situations. We refer to a way of life in an integrated domain where hunches, cut-and-try, intangibles, and the human "feel for a situation" usefully co-exist with powerful concepts, streamlined terminology and notation, sophisticated methods, and high-powered electronic aids.'
+
+Minimum viable product
 
 The FIRST STAGE of development is to create a Yahoo Pipes style interface and an API for wrapping javascript libraries such that they are usable with the "Dataflow" style of programming, similar to Pure Data (PD). The individual scripts could communicate by consuming and emmiting structured text in the form of JSON objects.
 
@@ -35,3 +37,27 @@ References:
 Note: Since Yahoo Pipes is shutting down. I'll attempt to post PDFs of the documentation soon
 
 Note: Howard Rheingold is not involved in this project. I took a couple online classes with Howard as the intructor. If we build something that works, I'm sure he'll be very excited and willing to share the project with other developers in his "personal learning network".
+
+# WebAssembly Community Group: Design
+
+This repository contains documents describing the high-level design of
+WebAssembly and is part of the 
+[WebAssembly Community Group](https://www.w3.org/community/webassembly/).
+The WebAssembly specification will be drafted in a different repository.
+
+**Expect the contents to be in flux: everything is still tentative.**
+
+A good starting point is the [high-level design goals](HighLevelGoals.md),
+followed by the [FAQ](FAQ.md).
+
+We've mapped out features we expect to ship:
+ 1. In [the Minimum Viable Product (MVP)](MVP.md);
+ 2. Closely [after the MVP](PostMVP.md);
+ 3. In [future versions](FutureFeatures.md).
+
+Join us:
+ * On IRC: `irc://irc.w3.org:6667/#webassembly`
+ * [Contribute](Contributing.md)!
+
+When contributing, please follow our
+[Code of Ethics and Professional Conduct](CodeOfConduct.md).
